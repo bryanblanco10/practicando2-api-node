@@ -1,0 +1,11 @@
+npm init -y -> crear archivo json
+
+paquetes a utilizar
+npm install express web-push dotenv morgan
+
+
+ejecutar servidor de node
+-> node src/index.js
+
+generar llaves public and private
+npx web-push generate-vapid-keys
